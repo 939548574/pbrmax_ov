@@ -105,7 +105,7 @@ class TemplateAssetProvider(BaseAssetStore):
                 assets.append(
                     AssetModel(
                         identifier=item["asset_uid"],
-                        name=item["name"],
+                        name=item["english_name"],
                         published_at="",
                         categories=[],
                         tags=[],
